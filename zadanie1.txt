@@ -1,0 +1,43 @@
+Задание со звездочкой 01.12.2022
+Отправляем запрос в браузере:http://162.55.220.72:5006/terminal-hw-request
+
+Получаем ответ в браузере
+{
+  "Intro": "Hello!! This is your the first response from server", 
+  "Tasks": {
+    "Task_1": "Send the next URL in terminal: http://162.55.220.72:5005/get_method?name=(set_your_String)&age=(set_your_number)", 
+    "result": [
+      "Your_String", 
+      "Your_number"
+    ]
+  }
+}
+
+Отправляем запрос в GitBash: $ curl http://162.55.220.72:5006/terminal-hw-request
+
+Получаем ответ в GitBash
+
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   283  100   283    0     0   3884      0 --:--:-- --:--:-- --:--:--  4042{
+  "Intro": "Hello!! This is your the first response from server",
+  "Tasks": {
+    "Task_1": "Send the next URL in terminal: http://162.55.220.72:5005/get_method?name=(set_your_String)&age=(set_your_number)",
+    "result": [
+      "Your_String",
+      "Your_number"
+    ]
+  }
+}
+
+Выполняем первое задание (Task_1).
+Отправляем запрос в GitBash: $ curl "http://162.55.220.72:5006/get_method?name=vladimir&age=27"
+
+Получаем ответ в GitBash:
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100    26  100    26    0     0    285      0 --:--:-- --:--:-- --:--:--   292[
+  "vladimir",
+  "27"
+]
+
